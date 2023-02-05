@@ -1,0 +1,203 @@
+:root {
+  --dark-background: #1f2937;
+  --main-text: #f9faf8;
+  --sec-text: #e5e7eb;
+  --accent: #3882f6;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  height: 75px;
+  background-color: var(--dark-background);
+  color: var(--main-text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+  border-bottom: 1px dotted var(--sec-text);
+}
+
+nav,
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+main {
+  background-color: var(--dark-background);
+  color: var(--main-text);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 150px;
+}
+
+.text-box,
+.img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  gap: 20px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.hero-text {
+  color: var(--sec-text);
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 20px;
+  font: inherit;
+  font-weight: bold;
+  background-color: var(--accent);
+  color: var(--main-text);
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.img-box {
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.info-container {
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 3px solid var(--accent);
+  border-radius: 10px;
+}
+
+.info-text {
+  font-size: 16px;
+}
+
+.quote {
+  background-color: var(--sec-text);
+  color: var(--dark-background);
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+figure {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+blockquote p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+figcaption {
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.qta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 150px;
+}
+
+.qta-box {
+  background-color: var(--accent);
+  color: var(--main-text);
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.qta button {
+  border: 1px solid var(--main-text);
+}
+
+.qta-text h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+footer {
+  height: 75px;
+  background-color: var(--dark-background);
+  color: var(--main-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
